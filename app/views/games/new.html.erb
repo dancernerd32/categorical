@@ -1,0 +1,10 @@
+<%= form_with scope: :game, url: games_path do |form| %>
+  <p>
+    <%= form.label :round_count %><br>
+    <%= form.text_field :round_count %>
+  </p>
+
+  <p>
+    <%= form.submit %>
+  </p>
+<% end %>
